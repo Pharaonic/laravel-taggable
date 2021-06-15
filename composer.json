@@ -1,0 +1,40 @@
+{
+    "name": "pharaonic/laravel-taggable",
+    "description": "Model Taggable Management.",
+    "keywords": [
+        "laravel Taggable",
+        "php Taggable",
+        "Taggable",
+        "laravel",
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moamen Eltouny (Raggi)",
+            "email": "raggi@raggitech.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "laravel/framework": ">=6.0",
+        "pharaonic/laravel-translatable": ">=1.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pharaonic\\Laravel\\Taggable\\TaggableServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Pharaonic\\Laravel\\Taggable\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
