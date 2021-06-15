@@ -17,7 +17,6 @@ class CreateTaggablesTable extends Migration
             $table->bigIncrements('id');
             $table->unsignedBigInteger('tag_id');
             $table->morphs('taggable');
-            $table->timestamps();
         });
     }
 
