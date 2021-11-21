@@ -14,7 +14,7 @@ trait Taggable
      */
     public static function bootTaggable()
     {
-        static::deleted(function (self $model) {
+        static::deleting(function (self $model) {
             $model->tags()->detach();
         });
     }
