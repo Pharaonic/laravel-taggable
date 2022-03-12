@@ -11,7 +11,7 @@
 </p>
 
 <h3 align="center">Model Taggable Management for Laravel.</h3>
-<h5 align="center">Depends on <a href="https://pharaonic.io/package/2-laravel/16-translatable" target="_blank">Translatable</a>.</h5>
+<h5 align="center">Depends on <a href="https://pharaonic.io/packages/laravel/translatable" target="_blank">Translatable</a>.</h5>
 <br>
 
 ## Documentation
